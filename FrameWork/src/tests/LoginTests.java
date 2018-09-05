@@ -1,0 +1,20 @@
+package tests;
+
+import pageclasses.LoginPage;
+import parent.BaseTest;
+
+public class LoginTests extends BaseTest {
+	
+	public static LoginPage page;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	//	page= new LoginPage();
+		page.init();
+		page.Login();
+		
+
+	}
+
+}
